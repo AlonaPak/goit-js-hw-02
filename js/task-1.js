@@ -1,6 +1,6 @@
 "use strict";
 function makeTransaction(quantity, pricePerDroid, customerCredits) {
-  let suma = quantity * pricePerDroid;
+  const suma = quantity * pricePerDroid;
   if (suma > customerCredits) {
     return "Insufficient funds!";
   } else {
